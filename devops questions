@@ -1,0 +1,457 @@
+Top 50 Devops Interview Questions and Answers
+
+1. Explain what is DevOps ? (Top 50 Devops Interview Questions and Answers Pdf)
+
+Answer: It is a newly emerging term in IT field, which is nothing but a practice that emphasizes the collaboration and communication of both software developers and other information-technology (IT) professionals. It focuses on delivering software product faster and lowering the failure rate of releases. ( Top 50 Devops Interview Questions and Answers Pdf )
+
+2. Mention what are the key aspects or principle behind DevOps?
+
+Answer: The key aspects or principle behind DevOps is
+
+? Infrastructure as code
+
+? Continuous deployment
+
+? Automation
+
+? Monitoring
+
+? Security
+
+3. What are the core operations of DevOps with application development and with infrastructure ?
+
+Answer: The core operations of DevOps with
+
+Application development
+
+Code building
+Code coverage
+Unit testing
+Packaging
+Deployment
+With infrastructure
+
+Provisioning
+Configuration
+Orchestration
+Deployment
+4. Differentiate between Asset Management and Configuration Management ?
+
+Answer: Asset Management, broadly defined, refers to any system that monitors and maintains things of value to an entity or group.
+
+Configuration Management is the process of planning for, identifying, controlling and verifying the Configurations Items (CIs) within a service, recording their status and, in support of Change Management, assessing the potential IT impact of changing those items. Informative Blog
+5. Explain which scripting language is most important for a DevOps engineer ?
+
+Answer: A modest scripting language will be beneficial for a DevOps engineer. Python resembles to be quite successful.
+
+6. Explain how DevOps is helpful to developers ?
+
+Answer: DevOps can be helpful to developers to fix the bug and implement new features quickly. It also helps for clearer communication between the team members.Learn Devops Training Online From Real Time Experts
+
+7. List out some popular tools for DevOps ?
+
+Answer: Some of the popular tools for DevOps are
+
+Jenkins
+Nagios
+Monit
+ELK (Elasticsearch, Logstash, Kibana)
+io
+Jenkins
+Docker
+Ansible
+Git
+Collectd/Collectl
+8. Mention at what instance have you used the SSH ?
+
+Answer: I have used SSH to log into a remote machine and work on the command line. Beside this, I have also used it to tunnel into the system in order to facilitate secure encrypted communications between two untrusted hosts over an insecure network. (Top 50 Devops Interview Questions and Answers Pdf)
+
+9. Explain how would you handle revision (version) control ?
+
+Answer: My approach to handle revision control would be to post the code on SourceForge or GitHub so everyone can view it. Also, I will post the checklist from the last revision to make sure that any unsolved issues are resolved.
+
+10. Mention what are the types of Http requests ?
+
+Answer: The types of Http requests are
+
+GET
+HEAD
+PUT
+POST
+PATCH
+DELETE
+TRACE
+CONNECT
+OPTIONS
+11. Explain what would you check If a Linux-build-server suddenly starts getting slow ?
+
+Answer: If a Linux-build-server suddenly starts getting slow, you will check for following three things
+
+Application Level troubleshooting: RAM related issues, Disk I/O read write issues, Disk Space related Issues, etc.
+
+System Level troubleshooting: Check for Application log file OR application server log file, system performance issues, Web Server Log – check HTTP, tomcat log, etc. or check jboss, weblogic logs to see if the application server response/receive time is the issues for slowness, Memory Leak of any application
+
+Dependent Services troubleshooting: Antivirus related issues, Firewall related issues, Network issues, SMTP server response time issues, etc.
+Top 50 Devops Splunk Interview Questions and Answers Pdf
+
+12. Whether your video card can run Unity how would you know ?
+
+Answer: When you use command
+
+/usr/lib/nux/unity_support_test-p
+
+it will give detailed output about Unity’s requirements and if they are met, then your video card can run unity.
+
+13. Explain how to enable startup sound in Ubuntu ?
+
+Answer: To enable startup sound
+
+Click control gear and then click on Startup Applications
+In the Startup Application Preferences window, click Add to add an entry
+Then fill the information in comment box like Name, Command and Comment
+/usr/bin/canberra-gtk-play—id= “desktop-login”—description= “play login sound”
+
+Logout and then login once you are done
+You can also open it with shortcut key Ctrl+Alt+T.
+
+14. What is the quicker way to open an Ubuntu terminal in a particular directory ?
+
+Answer: To open Ubuntu terminal in a particular directory you can use custom keyboard short cut.
+
+To do that, in the command field of a new custom keyboard , type genome – terminal – – working – directory = /path/to/dir.
+
+15. Explain how you can get the current color of the current screen on the Ubuntu desktop ?
+
+Answer: You can open the background image in The Gimp (image editor) and then use the dropper tool to select the color on the specific point. It gives you the RGB value of the color at that point. Devops Training Courses
+
+16. Explain how you create launchers on desktop in Ubuntu ?
+
+Answer: To create launchers on desktop in Ubuntu you can use
+
+ALT+F2 then type “ gnome-desktop-item-edit –create-new~/desktop “, it will launch the old GUI dialog and create a launcher on your desktop
+
+17.Describe what is Memcached?
+
+Answer: : Memcached is an open and unrestricted reservoir, high-execution, categorized memory object caching method. The main purpose of Memcached is to intensify the reply time to data that can unless being retrieved or built from remarkable extra source or database. Here is employed to sidestep the necessary to lead SQL database or supplemented reservoir repetitively to obtain data for the coexisting application.
+
+Memcached can be used for
+
+• Social Networking -> Profile Caching
+• Content Aggregation -> HTML/ Page Caching
+• Ad targeting -> Cookie/profile tracking
+• Relationship -> Session caching
+• E-commerce -> Session and HTML caching
+• Location-based services -> Data-base query scaling
+• Gaming and entertainment -> Session caching
+
+Memcache helps in
+
+• Speed up application processes
+• It determines what to store and what not to
+• Reduce the number of retrieval requests to the database
+• Cuts down the I/O ( Input/Output) access (hard disk)
+
+The drawback of Memcached is
+
+• It is not a persistent data store
+• Not a database
+• It is not an application specific
+• It cannot cache large object
+Top 30 Devops Interview Questions and Answers Pdf
+
+18. Mention some important features of Memcached ?
+
+Answer: Important features of Memcached includes
+
+• CAS Tokens: A CAS token is attached to any object retrieved from cache. You can use that token to save your updated object.
+
+• Callbacks: It simplifies the code
+
+• getDelayed: It reduces the delay time of your script which is waiting for results to come back from server
+
+• Binary protocol: You can use binary protocol instead of ASCII with the newer client
+
+• Igbinary: Previously, client always used to do serialization of the value with complex data, but with Memcached you can use igbinary option.
+
+19. Explain whether it is possible to share a single instance of a Memcache between multiple projects ?
+
+Answer: Yes, it is possible to share a single instance of Memcache between multiple projects. Memcache is a memory store space, and you can run memcache on one or more servers. You can additionally configure your customer to chat with a selective set of situations. So, you can work two separate Memcache methods on the corresponding host and till they are absolutely autonomous. Except, if you have partitioned your data, suddenly it grows essential to understand from which situation to receive the data from or to set into.
+
+20. You are having multiple Memcache servers, in which one of the memcacher server fails, and it has your data, will it ever try to get key data from that one failed server ?
+
+Answer: The data in the failed server won’t get removed, but there is a provision for auto-failure, which you can configure for multiple nodes. Fail-over can be triggered during any kind of socket or Memcached server level errors and not during normal client errors like adding an existing key, etc.
+
+21. What are the advantages of DevOps?
+
+Answer:
+For this answer, you can use your past experience and explain how DevOps helped you in your previous job. If you don’t have any such experience, then you can mention the below advantages.
+
+Technical benefits:
+
+Continuous software delivery
+Less complex problems to fix
+Faster resolution of problems
+
+Business benefits:
+
+Faster delivery of features
+More stable operating environments
+More time available to add value (rather than fix/maintain)
+
+22.What is the most important thing DevOps helps us achieve?
+
+Answer: According to me, the most important thing that DevOps helps us achieve is to get the changes into production as quickly as possible while minimizing risks in software quality assurance and compliance. This is the primary objective of DevOps. Learn more in this DevOps tutorial blog.
+
+However, you can add many other positive effects of DevOps. For example, clearer communication and better working relationships between teams i.e. both the Ops team and Dev team collaborate together to deliver good quality software which in turn leads to higher customer satisfaction.
+
+23.Explain with a use case where DevOps can be used in industry/ real-life?
+
+Answer:
+
+There are many industries that are using DevOps so you can mention any of those use cases, you can also refer the below example:
+
+Etsy is a peer-to-peer e-commerce website focused on handmade or vintage items and supplies, as well as unique factory-manufactured items. Etsy struggled with slow, painful site updates that frequently caused the site to go down. It affected sales for millions of Etsy’s users who sold goods through an online marketplace and risked driving them to the competitor.
+
+With the help of a new technical management team, Etsy transitioned from its waterfall model, which produced four-hour full-site deployments twice weekly, to a more agile approach. Today, it has a fully automated deployment pipeline, and its continuous delivery practices have reportedly resulted in more than 50 deployments a day with fewer disruptions. Training Videos
+
+24.Explain your understanding and expertise on both the software development side and the technical operations side of an organization you have worked with in the past?
+
+Answer: For this answer, share your past experience and try to explain how flexible you were in your previous job. You can refer the below example:
+
+DevOps engineers almost always work in a 24/7 business-critical online environment. I was adaptable to on-call duties and was available to take up real-time, live-system responsibility. I successfully automated processes to support continuous software deployments. I have experience with public/private clouds, tools like Chef or Puppet, scripting and automation with tools like Python and PHP, and a background in Agile.
+
+25.What are the anti-patterns of DevOps?
+
+Answer: A pattern is common usage usually followed. If a pattern commonly adopted by others does not work for your organization and you continue to blindly follow it, you are essentially adopting an anti-pattern. There are myths about DevOps. Some of them include:
+
+DevOps is a process
+Agile equals DevOps?
+We need a separate DevOps group
+Devops will solve all our problems
+DevOps means Developers Managing Production
+DevOps is Development-driven release management
+DevOps is not development driven.
+DevOps is not IT Operations driven.
+We can’t do DevOps – We’re Unique
+We can’t do DevOps – We’ve got the wrong people
+(Top 50 Devops Interview Questions and Answers Pdf)
+
+26. Mention what is the difference between Memcache and Memcached ?
+
+Answer:
+
+? Memcache: It is an extension that allows you to work through handy object-oriented (OOP’s) and procedural interfaces. It is designed to reduce database load in dynamic web applications.
+
+? Memcached: It is an extension that uses libmemcached library to provide API for communicating with Memcached servers. It is used to increase the dynamic web applications by alleviating database load. It is the latest API.
+Top 50 Devops Engineer Interview Questions and Answers Pdf
+
+27. What are the core operations of DevOps in terms of development and Infrastructure ?
+
+Answer: The core operations of DevOps
+
+Application development
+Code developing
+Code coverage
+Unit testing
+Packaging
+Deployment With infrastructure
+Provisioning
+Configuration
+Orchestration
+Deployment
+28. What are the advantages of DevOps with respect to Technical and Business perspective ?
+
+Answer:
+
+Technical benefits:
+
+Software delivery is continuous.
+Reduces Complexity in problems.
+Faster approach to resolve problems
+Manpower is reduced.
+Business benefits:
+
+High rate of delivering its features
+Stable operating environments
+More time gained to Add values.
+Enabling faster feature time to market
+29. The scope for SSH ?
+
+Answer: SSH is a Secure Shell which provides users with a secure, encrypted mechanism to log into systems and transfer files.
+
+To log out a remote machine and work on command line.
+
+To secure encrypted communications between two hosts over an insecure network. (Top 50 Devops Interview Questions and Answers Pdf)
+
+30. Which are the areas where DevOps are implemented ?
+
+Answer:
+
+Production Development
+Creation of the production feedback and its development
+IT Operations development
+31. List the agile methodology of DevOps ?
+
+Answer:
+
+DevOps is a process
+Agile is same as DevOps.
+Separate group for are framed.
+It is problem solving.
+Developers managing production
+DevOps is development-driven release management
+32. List the major difference between the Agile and DevOps ?
+
+Answer:
+
+Agile:
+
+Agile is about software development
+Devops:
+
+DevOps is about software deployment and management.
+DevOps does not replace Agile or Lean. It does this by killing waste, removing handovers, and streamlining deployments to allow faster and more continuous deployments to PRODUCTION.
+33. Name the popular scripting language of DevOps ?
+
+Answer: Python
+
+34. How DevOps is helpful to developers ?
+
+Answer:
+
+To correct the flaw and perform innovative characteristics immediately.
+This gives the accuracy of interaction between crew members.
+35. What are Vagrant and its uses ?
+
+Answer:
+
+Vagrant used virtual box as the hypervisor for virtual environments and in current scenario it is also supporting the KVM. Kernel-based Virtual Machine
+Vagrant is a tool that can create and manage environments for testing and developing software. Devops Training Free Demo
+36. What are the major difference between the Linux and Unix operating systems ?
+
+Answer:
+
+Unix:
+
+It belongs to the family of multitasking, multiuser operating systems.
+These are mostly used in internet servers and workstations.
+It is originally derived from AT&T Unix, developed starting in the 1970s at the Bell Labs research center by Ken Thompson, Dennis Ritchie, and others.
+Both the operating systems are open source but UNIX is relatively similar one as compared to LINUX.
+Linux:
+
+Linux has probably been home to every programming language known to humankind.
+These are used for personal computers.
+The LINUX is based on the kernel of UNIX operating system.
+37. How we can make sure new service is ready for the products launched ?
+
+Answer:
+
+Backup System
+Recovery plans
+Load Balancing
+Monitoring
+Centralized logging
+38. What are the benefits of the NoSQL ?
+
+Answer:
+
+Non-relational and schema-less data model
+Low latency and high performance
+Highly scalable
+39. What are adoptions of DevOps in industry ?
+
+Answer:
+
+1. Use of agile and other development processes and methods.
+
+2. Demand for an increased rate of production releases from application and business.
+
+3. Wide availability of virtual and cloud infrastructure from both internal and external providers;
+
+4. Increased usage of data center ,automation and configuration management tools;
+
+5. Increased focus on test automation and continuous integration methods;
+
+6. Best practices on critical issues.
+
+40. What are the advantages of NoSQL database over RDBMS ?
+
+Answer: The advantages are:
+
+1. There is very less scope of ETL
+
+2. Support is given for unstructured text
+
+3. Changes are handle over period of time
+
+4. Main objectives are functionality.
+
+5. It has the ability to scale horizontally
+
+6. Multiple data structures are given support.
+
+7. Vendors can be chosen.
+
+41. The top 10 skills the person should be having for the DevOp’s position ?
+
+Answer:
+
+Excellent in System Admin
+Virtualization Experience
+Good Technical Skills
+Excellent Scripting
+Good Developing skills
+Chef in Automation Tool Experience
+People Management
+Customer Service
+Real time Cloud operations
+Who care about someone
+42. What’s a PTR in DNS ?
+
+Answer: Pointer (PTR) record is used for revers DNS (Domain Name System) lookup.
+
+43. What do you know about DevOps ?
+
+Answer: Your answer must be simple and straightforward. Begin by explaining the growing importance of DevOps in the IT industry. Discuss how such an approach aims to synergize the efforts of the development and operations teams to accelerate the delivery of software products, with a minimal failure rate. Include how DevOps is a value-added practice, where development and operations engineers join hands throughout the product or service lifecycle, right from the design stage to the point of deployment. (Top 50 Devops Interview Questions and Answers Pdf)
+
+44. Why has DevOps gained prominence over the last few years ?
+
+Answer: Before talking about the growing popularity of DevOps, discuss the current industry scenario. Begin with some examples of how big players such as Netflix and Facebook are investing in DevOps to automate and accelerate application deployment and how this has helped them grow their business. Using Facebook as an example, you would point to Facebook’s continuous deployment and code ownership models and how these have helped it scale up but ensure quality of experience at the same time. Hundreds of lines of code are implemented without affecting the quality, stability, and security. Devops Training Course
+
+Your next use case should be Netflix. This streaming and on-demand video company, follows similar practices with fully automated processes and systems. Mention the user base of these two organizations: Facebook has 2 billion users while Netflix streams online content to more than 100 millions users worldwide. These are great examples of how DevOps can help organizations to ensure higher success rates for releases, reduce lead time between bug fixes, streamline and continuous delivery through automation, and an overall reduction in manpower costs. (Top 50 Devops Interview Questions and Answers Pdf)
+
+45. Which are some of the most popular DevOps tools ?
+
+Answer: The more popular DevOps tools include:
+
+Selenium
+Puppet
+Chef
+Git
+Jenkins
+Ansible
+Docker Devops Online Training
+46. What is version control and why should VCS be used ?
+
+Answer: Define version control and talk about how this system records any changes made to one or more files and saves them in a centralized repository. VCS tools will help you recall previous versions and perform the following:
+
+Go through the changes made over a period of time and check what works versus what doesn’t.
+Revert specific files or specific projects back to an older version.
+Examine issues or errors that have occurred due to a particular change.
+Using VCS gives developers the flexibility to simultaneously work on a particular file and all modifications can be logically combined later.
+
+47. Is there a difference between Agile and DevOps? If yes, please explain ?
+
+Answer: As a DevOps engineer, interview questions like this are quite expected. Start by describing the obvious overlap between DevOps and Agile. Although implementation of DevOps is always in sync with Agile methodologies, there is a clear difference between the two. The principles of Agile are associated to seamless production or development of a piece of software. On the other hand, DevOps deals with development, followed by deployment of the software, ensuring faster turnaround time, minimum errors, and reliability.
+
+48. Why are configuration management processes and tools important ?
+
+Answer: Talk about multiple software builds, releases, revisions, and versions for each software or testware that is being developed. Move on to explain the need for storing and maintaining data, keeping track of development builds and simplified troubleshooting. Don’t forget to mention the key CM tools that can be used to achieve these objectives. Talk about how tools like Puppet, Ansible, and Chef help in automating software deployment and configuration on several servers.
+
+49. How is Chef used as a CM tool ?
+
+Answer: Chef is considered to be one of the preferred industry-wide CM tools. Facebook migrated its infrastructure and backend IT to the Chef platform, for example. Explain how Chef helps you to avoid delays by automating processes. The scripts are written in Ruby. It can integrate with cloud-based platforms and configure new systems. It provides many libraries for infrastructure development that can later be deployed within a software. Thanks to its centralized management system, one Chef server is enough to be used as the center for deploying various policies.
+
+50. How would you explain the concept of “infrastructure as code” (IaC) ?
+
+Answer: It is a good idea to talk about IaC as a concept, which is sometimes referred to as a programmable infrastructure, where infrastructure is perceived in the same way as any other code. Describe how the traditional approach to managing infrastructure is taking a back seat and how manual configurations, obsolete tools, and custom scripts are becoming less reliable. Next, accentuate the benefits of IaC and how changes to IT infrastructure can be implemented in a faster, safer and easier manner using IaC. Include the other benefits of IaC like applying regular unit testing and integration testing to infrastructure configurations, and maintaining up-to-date infrastructure documentation.
