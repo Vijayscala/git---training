@@ -1,0 +1,48 @@
+Install the following
+
+JDK
+Jenkins
+Maven
+Apache-tomcat
+
+
+go to system properties>>Advanced tab>> environment variables>>change the path >>> include maven, JDK, git
+
+
+
+system variabkes>>>include JDK
+
+Jenkins>> Global tool configuration>>> include Maven, JDK & GIT Path
+
+
+
+
+
+Under jenkins provide the following URL
+
+Create Project<name> free style
+
+in Source Code Management choose GIT and provide the URL of the GIT hub repository
+
+in Build choose Maven and in the goals type "clean install"
+
+
+
+
+for deployment 
+
+type **/*.war in post build actions
+
+Context Path - give some name 
+
+in containers
+
+choose tomcat8.x
+
+provide the tomcat credentials
+and the tomcat URL : http://localhost:8899/
+
+
+
+
+
